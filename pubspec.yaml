@@ -1,0 +1,33 @@
+name: login_signup_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # store & load data
+  shared_preferences: ^0.5.12+4
+
+  # generate id
+  uuid: ^2.2.2
+
+  # format date time
+  intl: ^0.16.1
+
+  # pick image
+  image_picker: ^0.6.7+21
+
+  # store image
+  path_provider: ^1.6.27
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
